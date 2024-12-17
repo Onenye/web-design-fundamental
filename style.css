@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    
+    height: 80vh;
+    border: 2px solid rgb(13, 13, 206);
+    margin: 2rem;
+    
+    
+}
+.content{
+    
+    padding: 5%;
+    
+}
+
+h1{
+    
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.line-under{
+    border-top: 2px solid rgb(240, 67, 36);
+    margin-bottom: 1%;
+}
+
+.first-section{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(238, 242, 245);
+    border-left: 3px solid rgba(9, 95, 180, 0.911);
+    line-height: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1%;
+}
+
+.second-section{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(252, 250, 190);
+    border-right: 3px solid rgb(236, 166, 35);
+    padding: 1rem;
+    margin-bottom: 1%;
+}
+
+.box-model{
+    border: 2px dashed purple;
+    background-color: rgb(247, 240, 241);
+}
+
+h3{
+    color: purple;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 150%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.box{
+    border: 10px solid rgb(163, 5, 5);
+    background-color: red;
+    color: white;
+    width: 50%;
+    margin: 2%;
+    padding: 2rem;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+@media (max-width:600px){
+    .wrapper{
+        height: 80vh;
+        width: 80%;
+        margin: 2rem;
+    }
+
+    h1{
+        font-size: larger;
+        margin-bottom: 5%;
+    }
+
+    .line-under{
+        margin-bottom: 5%;
+    }
+
+    .first-section{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(250, 253, 255);
+        border-left: 3px solid rgba(9, 95, 180, 0.911);
+        line-height: 1.5rem;
+        padding: 1rem;
+        margin-bottom: 5%;
+    }
+
+    .second-section{
+        font-family: Helvetica, Arial, sans-serif;
+        background-color: rgb(252, 250, 190);
+        border-right: 3px solid rgb(236, 166, 35);
+        padding: 1rem;
+        margin-bottom: 5%;
+    }
+
+
+    
+    h3{
+        
+        text-align: center;
+        margin-top: 2rem;
+        font-weight: 600;
+        font-size: larger;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .box-model{
+        border: 2px dashed purple;
+        background-color: rgb(253, 251, 251);
+        height: 20%;
+    }
+    
+    .box{
+        border: 5px solid rgb(163, 5, 5);
+        background-color: red;
+        color: white;
+        font-size: smaller;
+        width: 60%;
+        height: 4rem;
+        margin-left: 5%;
+        padding: 1rem;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    
+}
